@@ -11,3 +11,5 @@
 /log/*
 !/log/.keep
 /tmp
+development.sqlite3
+.DS_Store
