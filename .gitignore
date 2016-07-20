@@ -7,6 +7,18 @@
 # Ignore bundler config.
 /.bundle
 
+# Ignore the default SQLite database.
+/db/*.sqlite3
+/db/*.sqlite3.log
+/db/*.sqlite3.properties
+/db/*.sqlite3.script
+/db/development.sqlite3.temp/*
+/db.tmp/*
+db.log
+db.properties
+db.script
+
+
 # Ignore all logfiles and tempfiles.
 /log/*
 !/log/.keep
